@@ -17,6 +17,7 @@ def extract_phone_numbers(data):
     # numbers_regex = re.compile(r'Dr. ', re.IGNORECASE)
     print(numbers_regex.findall(data))
     # print(numbers_regex.search(data))
-
+    # just another push
+    
 raw_data = get_clipboard_date()
 extract_phone_numbers(raw_data)
